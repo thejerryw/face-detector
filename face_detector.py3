@@ -1,3 +1,5 @@
+# face_detector.py3 - detects face using opencv webcam display and shows rectangle around face
+
 import cv2
 
 cascade_path = cv2.data.haarcascades + "haarcascade_frontalface_default.xml" # builds full path to haarcascade which is built in object detection
